@@ -1,0 +1,132 @@
+# Git
+.git
+.gitignore
+.gitattributes
+.github/
+
+# Documentation
+README.md
+CHANGELOG.md
+LICENSE
+*.md
+
+# Python cache and compiled files
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.coverage
+.pytest_cache
+.mypy_cache
+.tox
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.virtualenv
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Icon?
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.bak
+*.backup
+
+# Test files (exclude from Docker image)
+tests/
+test_*
+*_test.py
+.pytest_cache/
+
+# Development files
+.env.local
+.env.development
+docker-compose.yml
+docker-compose.override.yml
+docker-compose.*.yml
+
+# Large data files
+data/large_datasets/
+data/*.parquet
+data/*.h5
+data/*.hdf5
+data/*.csv.gz
+
+# Model artifacts (exclude pre-trained models from image)
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/checkpoints/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Jupyter notebooks
+*.ipynb
+.ipynb_checkpoints
+
+# Documentation
+docs/
+doc/
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+.circleci/
+
+# Docker files (avoid recursive copying)
+Dockerfile*
+
+# Shell scripts (development only)
+*.sh
+create_env.sh
+
+# MCP development files
+.mcp_cache/
+mcp_server.log
+
+# Editor config
+.editorconfig
+
+# Node.js (if any frontend components)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Backup files
+*.orig
+
+# Local configuration files
+config.local.*
+settings.local.*

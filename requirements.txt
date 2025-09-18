@@ -1,0 +1,14 @@
+pydantic
+fastapi
+fastmcp
+statsforecast
+uvicorn
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+asyncio
+aiohttp
+httpx
+pytest
