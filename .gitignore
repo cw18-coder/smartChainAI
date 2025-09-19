@@ -238,6 +238,7 @@ data/*.parquet
 data/*.h5
 data/*.hdf5
 data/*.csv
+data/*.json
 
 # Model artifacts
 models/*.pkl
